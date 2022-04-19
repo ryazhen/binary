@@ -79,7 +79,7 @@ body {
 }
 
 .block_header {
-  background: url("/binary/img/header/background.png") center no-repeat;
+  background: url("../img/header/background.png") center no-repeat;
 }
 
 .header {
