@@ -302,12 +302,6 @@ body {
   background-color: #f3f3f3;
 }
 .portfolio__title {
-  font-size: 34px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  position: relative;
-  text-align: center;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
@@ -398,5 +392,87 @@ body {
 .portfolio__button:hover {
   background: black;
   color: white;
+}
+
+.parthners {
+  max-width: 1920px;
+  height: 390px;
+  background: url("../img/our_parthners/background.png") bottom no-repeat;
+  margin: 0 auto;
+}
+.parthners__title {
+  text-align: center;
+  padding: 95px 0 0 0;
+  font-size: 30.4px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.parthners__row {
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 90px auto 0;
+}
+.contact {
+  max-width: 1920px;
+  height: 820px;
+}
+.contact__title {
+  margin: 180px 0 100px 0;
+}
+.contact__block {
+  width: 725px;
+  margin: 0 auto;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.contact__form-name {
+  width: 161px;
+  height: 35px;
+  background-color: #f8f7f7;
+  border-top: 1px solid #000;
+}
+.contact__form-email {
+  width: 161px;
+  height: 35px;
+  background-color: #f8f7f7;
+  border-top: 1px solid #000;
+}
+.contact__form-message {
+  width: 383px;
+  height: 118px;
+  background-color: #f8f7f7;
+  border-top: 1px solid #000;
+}
+.contact__form-button {
+  background: none;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.contact__info {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #000000;
+}
+.contact__info-name {
+  font-weight: 700;
+}
+.contact__info-email a {
+  font-weight: 700;
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
