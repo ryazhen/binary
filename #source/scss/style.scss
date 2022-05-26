@@ -6,7 +6,7 @@ body {
 	font-family: Lato;
 }
 
-
+// ! ********************* Header ***********************
 .block_header {
 	background: url('../img/header/background.png') center no-repeat;
 }
@@ -27,7 +27,7 @@ body {
 	&__slogan {
 		position: relative;
 		text-align: center;
-		margin: 0px 0px 150px 0px;
+		margin: 0px 0px 250px 0px;
 		padding: 0px 0px 50px 0px;
 
 		&:after {
@@ -88,12 +88,10 @@ body {
 			background: white;
 			color: #000000;
 		}
-
-		// &:active{
-
-		// }
 	}
 }
+
+// ! ********************* About ***********************
 
 .about {
 	&__body {
@@ -224,6 +222,7 @@ body {
 	}
 }
 
+// ! ********************* Portfolio ***********************
 
 .portfolio {
 	max-width: 1920px;
@@ -234,12 +233,6 @@ body {
 
 
 	&__title {
-		font-size: 34px;
-		font-weight: 700;
-		text-transform: uppercase;
-		letter-spacing: 0.16em;
-		position: relative;
-		text-align: center;
 		padding-bottom: 30px;
 		margin-bottom: 30px;
 	}
@@ -304,14 +297,7 @@ body {
 	}
 
 
-
-
-
-
-
-
-
-	// ! Кнопка
+	// ? Кнопка
 	&__readmore {
 		position: relative;
 		display: flex;
@@ -334,6 +320,227 @@ body {
 		&:hover {
 			background: black;
 			color: white;
+		}
+	}
+}
+
+// ! ********************* Parthners ***********************
+
+.parthners {
+	max-width: 1920px;
+	height: 390px;
+	background: url('../img/our_parthners/background.png') bottom no-repeat;
+	margin: 0 auto;
+
+
+	&__title {
+		text-align: center;
+		padding: 95px 0 0 0;
+		font-size: 30.4px;
+		line-height: 1.2;
+		font-weight: 300;
+		letter-spacing: 0.06em;
+		color: #ffffff;
+	}
+
+
+	&__row {
+
+		max-width: 600px;
+		display: flex;
+		justify-content: space-around;
+		margin: 90px auto 0;
+
+
+		&__column {}
+	}
+}
+
+
+// ! ********************* Contact ***********************
+
+.contact {
+	max-width: 1920px;
+	height: 620px;
+	margin: 0 auto;
+
+
+
+	&__title {
+		margin: 150px 0 100px 0;
+	}
+
+	&__block {
+		width: 725px;
+		margin: 0 auto;
+		font-family: Lato;
+		font-size: 14px;
+		line-height: 1.2;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		left: -100px;
+	}
+
+	&__form {
+		display: flex;
+		width: 385px;
+
+		input {
+			margin-top: 15px;
+		}
+
+		.button {
+			display: flex;
+			justify-content: flex-end;
+		}
+	}
+
+	.name_mail {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 0 0 50px 0;
+
+		input,
+		label {
+			display: block;
+		}
+	}
+
+
+	&__form-name,
+	&__form-email {
+		width: 161px;
+		height: 35px;
+		background-color: #f8f7f7;
+		border-top: 1px solid #000;
+	}
+
+	&__form-message {
+		width: 383px;
+		height: 118px;
+		background-color: #f8f7f7;
+		border-top: 1px solid #000;
+		margin-bottom: 35px;
+	}
+
+	&__form-button {
+		background: none;
+		font-family: Lato;
+		font-size: 14px;
+		line-height: 1.2;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+
+		&:hover {
+			border-bottom: 1px solid #000;
+		}
+	}
+
+	// ******** info **********
+
+	&__info {
+		margin-left: 80px;
+		font-family: Lato;
+		font-size: 14px;
+		line-height: 26px;
+		font-weight: 300;
+		color: #000000;
+		letter-spacing: 0px;
+		line-height: 23px;
+	}
+
+	&__info-txt {
+		margin: 0 0 30px 0;
+	}
+
+	&__info-name {
+		font-weight: 700;
+		margin: 0 0 20px 0;
+	}
+
+	&__info-snetworks {
+		margin: 0px 0px 10px 0px;
+
+		img {
+			margin: 0px 10px 0px 0px;
+		}
+	}
+
+	&__info-email {
+
+		a {
+			font-weight: 700;
+			color: #000;
+		}
+	}
+}
+
+// ! ********************* Footer ***********************
+
+
+.footer {
+	margin: 0px auto;
+	background: #3c3c3c;
+	padding: 0px 0px 50px 0px;
+
+	&__logo {
+		text-align: center;
+		padding: 45px 0px 0px 0px;
+		margin: 0px 0px 40px 0px;
+	}
+
+	&__bar {
+		margin-bottom: 30px;
+	}
+
+	&__navbar {
+		position: relative;
+		margin: 0 auto;
+		max-width: 255px;
+		// text-align: center;
+		display: flex;
+
+
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			height: 5px;
+			color: #fff;
+			margin-bottom: 100px;
+		}
+	}
+
+	&__paragraph {
+		justify-content: space-around;
+		margin: 0 auto;
+	}
+
+	&__copyright {
+		text-align: center;
+		font-size: 14px;
+		line-height: 1.2;
+		font-weight: 400;
+		color: #6c6c6c;
+
+	}
+}
+
+.item-nav {
+	&__par {
+		font-size: 15px;
+		line-height: 1.2;
+		font-weight: 700;
+		color: #a4a4a4;
+
+		&:hover {
+			color: #aea175;
 		}
 	}
 }

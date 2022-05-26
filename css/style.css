@@ -103,7 +103,7 @@ body {
 .header__slogan {
   position: relative;
   text-align: center;
-  margin: 0px 0px 150px 0px;
+  margin: 0px 0px 250px 0px;
   padding: 0px 0px 50px 0px;
 }
 .header__slogan:after {
@@ -302,12 +302,6 @@ body {
   background-color: #f3f3f3;
 }
 .portfolio__title {
-  font-size: 34px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  position: relative;
-  text-align: center;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
@@ -398,5 +392,194 @@ body {
 .portfolio__button:hover {
   background: black;
   color: white;
+}
+
+.parthners {
+  max-width: 1920px;
+  height: 390px;
+  background: url("../img/our_parthners/background.png") bottom no-repeat;
+  margin: 0 auto;
+}
+.parthners__title {
+  text-align: center;
+  padding: 95px 0 0 0;
+  font-size: 30.4px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.parthners__row {
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 90px auto 0;
+}
+.contact {
+  max-width: 1920px;
+  height: 620px;
+  margin: 0 auto;
+}
+.contact__title {
+  margin: 150px 0 100px 0;
+}
+.contact__block {
+  width: 725px;
+  margin: 0 auto;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  left: -100px;
+}
+.contact__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 385px;
+}
+.contact__form input {
+  margin-top: 15px;
+}
+.contact__form .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.contact .name_mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 50px 0;
+}
+.contact .name_mail input,
+.contact .name_mail label {
+  display: block;
+}
+.contact__form-name, .contact__form-email {
+  width: 161px;
+  height: 35px;
+  background-color: #f8f7f7;
+  border-top: 1px solid #000;
+}
+.contact__form-message {
+  width: 383px;
+  height: 118px;
+  background-color: #f8f7f7;
+  border-top: 1px solid #000;
+  margin-bottom: 35px;
+}
+.contact__form-button {
+  background: none;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.contact__form-button:hover {
+  border-bottom: 1px solid #000;
+}
+.contact__info {
+  margin-left: 80px;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: 0px;
+  line-height: 23px;
+}
+.contact__info-txt {
+  margin: 0 0 30px 0;
+}
+.contact__info-name {
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+.contact__info-snetworks {
+  margin: 0px 0px 10px 0px;
+}
+.contact__info-snetworks img {
+  margin: 0px 10px 0px 0px;
+}
+.contact__info-email a {
+  font-weight: 700;
+  color: #000;
+}
+
+.footer {
+  margin: 0px auto;
+  background: #3c3c3c;
+  padding: 0px 0px 50px 0px;
+}
+.footer__logo {
+  text-align: center;
+  padding: 45px 0px 0px 0px;
+  margin: 0px 0px 40px 0px;
+}
+.footer__bar {
+  margin-bottom: 30px;
+}
+.footer__navbar {
+  position: relative;
+  margin: 0 auto;
+  max-width: 255px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__navbar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+.footer__paragraph {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+}
+.footer__copyright {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+
+.item-nav__par {
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #a4a4a4;
+}
+.item-nav__par:hover {
+  color: #aea175;
 }
 /*# sourceMappingURL=style.css.map */
